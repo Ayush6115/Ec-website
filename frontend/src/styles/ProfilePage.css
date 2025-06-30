@@ -1,0 +1,122 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.profile-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profile-container h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.profile-card {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.profile-card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.profile-card strong {
+  color: #222;
+}
+
+.profile-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.profile-field span,
+.profile-field input {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.profile-field input {
+  padding: 6px 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-field button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profile-field button:hover {
+  text-decoration: underline;
+}
+
+.save-button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #28a745;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.cancel-button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
